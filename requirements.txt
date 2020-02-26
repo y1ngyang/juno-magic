@@ -1,5 +1,5 @@
 jupyter==1.0
-autobahn==0.17.1
+autobahn==20.2.2
 twisted
 txzmq
 pyopenssl
