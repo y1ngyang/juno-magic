@@ -7,3 +7,4 @@ service_identity
 zope.interface
 requests
 jupyter_react
+notebook>=6.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
