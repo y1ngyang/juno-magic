@@ -1,5 +1,5 @@
 jupyter==1.0
-autobahn==0.17.1
+autobahn==20.12.3
 twisted
 txzmq
 pyopenssl
@@ -7,3 +7,5 @@ service_identity
 zope.interface
 requests
 jupyter_react
+notebook>=6.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
