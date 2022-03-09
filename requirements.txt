@@ -7,3 +7,5 @@ service_identity
 zope.interface
 requests
 jupyter_react
+ipython>=7.16.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
